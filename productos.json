@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "titulo": "Lord of the ring",
+        "precio": 115,
+        "thumbnail": "img"
+    },{
+        "id": 1,
+        "titulo": "Spiderman",
+        "precio": 125,
+        "thumbnail": "img"
+    },{
+        "id": 2,
+        "titulo": "the Hoobit",
+        "precio": 135,
+        "thumbnail": "img"
+    },{
+        "id": 3,
+        "titulo": "Avengers",
+        "precio": 224,
+        "thumbnail": "img"
+    }
+]
