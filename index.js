@@ -1,21 +1,6 @@
 const express = require('express');
-const fs = require('fs');
+const Contenedor = require ('./manejoDeArchivo')
 const app = express();
-
-class Contenedor {
-    constructor(nombre){
-        this.nameFile = `./${nombre}.json`;
-    }
-    getAll= async () => {
-        try{
-            const dataReturn = await fs.promises.readFile(this.nameFile, 'utf-8')
-            return JSON.parse(dataReturn, null, ' ');
-        }
-        catch(e){
-            console.log('Error al crear o modificar el archivo', e)
-        }
-    }
-}
 
 const file = new Contenedor('productos')
 
